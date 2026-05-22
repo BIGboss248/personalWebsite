@@ -83,6 +83,8 @@ The goal is to demonstrate design capabilities while proving to clients that I h
 
 ## 5. UI/UX Design
 
+UI design done via [Google Stitch](https://stitch.withgoogle.com/)
+
 - **User flow mapping**: Mapping navigation paths from landing page to projects and contact forms.
 - **Wireframes & mockups**: Creating layout grids for clean responsive alignment.
 - **Prototyping**: Interactive testing of hover transitions and mobile menus.
