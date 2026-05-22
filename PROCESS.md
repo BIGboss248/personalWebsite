@@ -74,9 +74,10 @@ The goal is to demonstrate design capabilities while proving to clients that I h
 
 ## 4. Project Roadmap & Phases
 
-- **Phase 1**: MVP (Minimum Viable Product) with About, Skills, and Projects (Static pages).
-- **Phase 2**: Integration of a Contact Form (via Resend) and Markdown/MDX for blog posts.
-- **Phase 3**: Advanced animations (Framer Motion) and performance optimization.
+- **Phase 1**: Design the website and create mockups.
+- **Phase 2**: MVP (Minimum Viable Product) with About, Skills, and Projects (Static pages).
+- **Phase 3**: Integration of a Contact Form (via Resend) and Markdown/MDX for blog posts.
+- **Phase 4**: Advanced animations (Framer Motion) and performance optimization.
 
 ---
 
