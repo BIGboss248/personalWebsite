@@ -5,25 +5,27 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 ---
 
 ## Phase 1: Ideation, Strategy & Briefing
-- [ ] **Problem & User Definitions**
-  - [ ] Define the Problem: What exact pain point are we solving?
-  - [ ] Identify Target Users: Recruiters, business owners, and visitors.
-  - [ ] Set Goals & Success Metrics: Target load speeds, user engagement, and visual feedback.
-- [ ] **Strategy Session & Project Brief**
-  - [ ] Document the "Why" for creating the website.
-  - [ ] Set Category Definition (Portfolio / Business hybrid).
-  - [ ] Define Goals & Core Actions (Form submission, resume download).
-  - [ ] Choose Key Attributes & Emotions (Trust, minimalism, premium).
-  - [ ] Competitor Research: Analyze 3-5 portfolios (Brittany Chiang, Adham Dannaway, Matt Farley, etc.).
-  - [ ] Use AI to visit sample websites and store design concepts as Markdown in the repository.
+
+- [x] **Problem & User Definitions**
+  - [x] Define the Problem: What exact pain point are we solving?
+  - [x] Identify Target Users: Recruiters, business owners, and visitors.
+  - [x] Set Goals & Success Metrics: Target load speeds, user engagement, and visual feedback.
+- [x] **Strategy Session & Project Brief**
+  - [x] Document the "Why" for creating the website.
+  - [x] Set Category Definition (Portfolio / Business hybrid).
+  - [x] Define Goals & Core Actions (Form submission, resume download).
+  - [x] Choose Key Attributes & Emotions (Trust, minimalism, premium).
+  - [x] Competitor Research: Analyze 3-5 portfolios (Brittany Chiang, Adham Dannaway, Matt Farley, etc.).
+  - [x] Use AI to visit sample websites and store design concepts as Markdown in the repository.
 
 ---
 
 ## Phase 2: Structure, Visual Identity & Design (UX/UI)
+
 - [ ] **User Flow Mapping**
-  - [ ] Draw User Flows (Landing -> Projects -> Contact) using Mermaid.
+  - [ ] Draw User Flows (Landing -> Projects Archive -> Project Detail -> Contact) using Mermaid.
 - [ ] **Sitemap & Page Hierarchy**
-  - [ ] Define Navigation & Hierarchy (Home, Blog, Legal/Compliance pages).
+  - [ ] Define Navigation & Hierarchy (Home, Projects Archive, Project Detail, Blog, Legal/Compliance pages).
 - [ ] **Visual Identity & Asset Gathering**
   - [ ] Collect Mood Board Inspiration (Behance, Dribbble, Pinterest).
   - [ ] Theming & Color Palette: Design setups for Light and Dark themes.
@@ -34,14 +36,15 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
   - [ ] Centralized Component Design (Buttons, Cards, Forms, Inputs) to establish styling tokens.
 - [ ] **Technical Architecture & Caching Strategy**
   - [ ] Evaluate Page Cacheability based on dynamic/static content.
-  - [ ] Select Rendering Strategy (SSG for Home/Blog, Server Actions for mutations).
+  - [ ] Select Rendering Strategy (SSG for Home/Projects/Blog, Server Actions for mutations).
 
 ---
 
 ## Phase 3: Dev Environment Setup & Coding Foundation
-- [ ] **Version Control & Standards**
-  - [ ] Initialize Git repository with standard `.gitignore`.
-  - [ ] Define branching strategy (`main`/`production` and `dev`/`feature`).
+
+- [/] **Version Control & Standards**
+  - [x] Initialize Git repository with standard `.gitignore`.
+  - [x] Define branching strategy (`main`/`production` and `dev`/`feature`).
   - [ ] Setup coding standards (Prettier, ESLint, TypeScript).
 - [ ] **Workspace Optimization**
   - [ ] Set Up AI Context (`AGENTS.md`).
@@ -55,6 +58,7 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 ---
 
 ## Phase 4: UI & Framework Development
+
 - [ ] **Layout & Styling Setup**
   - [ ] Apply Global Theme: Configure global CSS variables (`index.css`).
   - [ ] Scaffold Root Layout: Scaffolding with HTML frame, fonts, lang attributes, and hydration tags.
@@ -66,7 +70,7 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
   - [ ] Image Optimization: Use built-in tags and configure source domains.
   - [ ] Link Optimization: Use prefetching with built-in linking tags.
 - [ ] **Page Checklist**
-  - [ ] Choose rendering and caching strategy for Home and Blog pages.
+  - [ ] Choose rendering and caching strategy for Home, Projects Archive, Project Detail, and Blog pages.
   - [ ] Load translations and text through dictionaries (no hardcoded copy).
   - [ ] Implement data streaming: Wrap dynamic blocks in `Suspense` with skeleton loading states.
   - [ ] Handle page metadata and JSON-LD schemas.
@@ -81,6 +85,7 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 ---
 
 ## Phase 5: Quality Assurance & Performance Testing
+
 - [ ] **Manual & Exploratory Testing**
   - [ ] Multi-device Testing: Mobile, tablet, desktop viewports.
   - [ ] Cross-browser Audits: Safari, Chrome, Firefox, Edge.
@@ -94,6 +99,7 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 ---
 
 ## Phase 6: Analytics, Monitoring & Compliance
+
 - [ ] **Monitoring Stack Configuration**
   - [ ] Error & Crash Tracking: Integrate Sentry.
   - [ ] Product Analytics: Set up PostHog.
@@ -111,6 +117,7 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 ---
 
 ## Phase 7: Build & Deployment
+
 - [ ] **Build Compilation Optimization**
   - [ ] Enable build cache settings (Turbopack).
   - [ ] Setup compilers (React Compiler) for optimized rendering.
@@ -125,6 +132,7 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 ---
 
 ## Phase 8: Maintenance & Continuous Improvement
+
 - [ ] **Monitor & Adjust**: Review error reports, user drop-offs, and analytics weekly.
 - [ ] **Agile Backlog**: Track bugs and enhancements via issue trackers (GitHub).
 - [ ] **Refactoring**: Reduce technical debt and update dependencies.
@@ -133,6 +141,7 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 ---
 
 ## Phase 9: Infrastructure Scaling & Documentation
+
 - [ ] **Orchestration**: Package application using Docker.
 - [ ] **Caching Layer**: Optimize with Redis caching database and CDN (Cloudflare).
 - [ ] **Documentation**: Maintain setup guides, API references, and user guides.
@@ -140,6 +149,17 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 ---
 
 ## 🔄 The Continuous Workflow Loop
+
+- [ ] **Plan**: Gather telemetry and user feedback, outline sprint items.
+- [ ] **Build**: Code in small chunks, test locally.
+- [ ] **Measure**: Track PageSpeed, Sentry crashes, and telemetry.
+- [ ] **Learn**: Study telemetry deviations and user reviews.
+- [ ] **Iterate**: Repeat cycles continuously., API references, and user guides.
+
+---
+
+## 🔄 The Continuous Workflow Loop
+
 - [ ] **Plan**: Gather telemetry and user feedback, outline sprint items.
 - [ ] **Build**: Code in small chunks, test locally.
 - [ ] **Measure**: Track PageSpeed, Sentry crashes, and telemetry.
