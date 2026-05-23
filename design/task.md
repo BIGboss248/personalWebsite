@@ -24,15 +24,20 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
 
 - [ ] **User Flow Mapping**
   - [ ] Draw User Flows (Landing -> Projects Archive -> Project Detail -> Contact) using Mermaid.
-- [ ] **Sitemap & Page Hierarchy**
-  - [ ] Define Navigation & Hierarchy (Home, Projects Archive, Project Detail, Blog, Legal/Compliance pages).
+- [x] **Sitemap & Page Hierarchy**
+  - [x] Define Navigation & Hierarchy (Home, Projects Archive, Project Detail, Blog, Legal/Compliance pages).
 - [ ] **Visual Identity & Asset Gathering**
   - [ ] Collect Mood Board Inspiration (Behance, Dribbble, Pinterest).
   - [ ] Theming & Color Palette: Design setups for Light and Dark themes.
   - [ ] Typography & Logos: Choose font pairings and design/source personal logos.
   - [ ] Imagery & Icon Sourcing: Gather/generate assets and choose an icon set (Lucide).
 - [ ] **Designing**
-  - [ ] Generate designs and page layouts using Figma or Google Stitch.
+  - [/] Generate designs and page layouts using Figma or Google Stitch:
+    - [x] Home Page
+    - [x] Projects Archive Page
+    - [ ] Project Detail / Case Study Page
+    - [ ] Blog / Articles Page
+    - [ ] Legal/Compliance Pages (Privacy Policy, Terms of Service)
   - [ ] Centralized Component Design (Buttons, Cards, Forms, Inputs) to establish styling tokens.
 - [ ] **Technical Architecture & Caching Strategy**
   - [ ] Evaluate Page Cacheability based on dynamic/static content.
@@ -65,6 +70,12 @@ This checklist tracks the tasks required to build, test, deploy, and maintain th
   - [ ] Layout Screen Compatibility: Ensure navigation headers and footers are responsive.
 - [ ] **Component Implementation**
   - [ ] Build core UI components (Hero, About, Skills grid, Project cards, Footer).
+    - [ ] **Hero Section Requirements**:
+      - [ ] Status indicator dot (accent-focus) + monospaced label: "AVAILABLE FOR WORK"
+      - [ ] Main headline (large bold typography)
+      - [ ] Subtitle paragraph in zinc-gray (supporting body typography)
+      - [ ] Primary CTA button (solid background, bold text)
+      - [ ] Secondary/Ghost CTA button (transparent background, border-subtle)
   - [ ] Separate Client/Server logic to maximize loading speed.
   - [ ] Ensure secrets are never exposed on client components.
   - [ ] Image Optimization: Use built-in tags and configure source domains.

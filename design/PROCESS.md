@@ -95,6 +95,11 @@ My target audience is small to medium-sized businesses and organizations that ne
   - Blog/Articles (Dynamic lists and MDX content pages)
 - **Section Layouts**:
   - **Home**: Navigation, Hero, About/Skills, Featured Projects, Contact Form, Footer.
+    - **Hero Section Specification**:
+      - *Availability Indicator*: Status dot (using accent-focus color) + monospaced label text (e.g., `"AVAILABLE FOR FREELANCE & ROLES"`).
+      - *Main Headline*: Large bold headline expressing the core value proposition.
+      - *Subtitle*: Supporting body paragraph text in zinc-gray, explaining engineering specialty in speed, scalability, and accessibility.
+      - *CTAs*: Primary button (solid background with bold text) and Secondary/Ghost button (transparent background with border-subtle).
   - **Projects Archive**: Navigation, Hero/Intro, Search & Filter Bar, Project Card Grid, CTA Section, Footer.
   - **Project Detail / Case Study**: Navigation, Project Hero (Metadata, Live/Source links), Project Overview, Tech Stack, Implementation Process, Key Features (Code snippets), Challenges & Solutions, Results & Takeaways, Next/Prev Project Navigation, Footer.
   - **Blog/Articles**: Navigation, Blog List / Category Filter, Post View (with MDX formatting & syntax highlighting), Footer.
